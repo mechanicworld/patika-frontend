@@ -1,0 +1,23 @@
+li{
+ list-style: none;
+ background-color: chartreuse;
+ width: 10rem;
+ height: 5rem;
+ border-radius: 2rem;
+ display: grid;
+ place-items: center; 
+ color: white;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+ul{
+ display: flex;
+ justify-content: space-around;
+ margin-left: auto;
+ padding-left: 0;
+ text-align: center;
+}
