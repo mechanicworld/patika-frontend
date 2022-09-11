@@ -1,0 +1,58 @@
+
+body{
+  height: 97vh;    
+  
+}
+.search-container{
+  background-color: rgb(235, 235, 235);
+  height: 5rem;
+  display: grid;
+  place-items: center;
+}
+li{
+  list-style: none;
+  text-align: center;
+}
+ul{
+  padding: 0;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+.search-input{
+  width: 25rem;
+  padding: 0.3rem;
+  margin: 0;
+}
+.nav-container{
+  height: 4rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr;
+  
+}
+.search-type{
+background-color: aquamarine;
+display: grid;
+place-items: center;
+}
+.info{
+background-color: rgb(93, 201, 201);
+display: grid;
+place-items: center;
+}
+.subscription{
+background-color: cadetblue;
+display: grid;
+place-items: center;
+}
+header{
+  display: grid;
+  place-items: center;
+}
