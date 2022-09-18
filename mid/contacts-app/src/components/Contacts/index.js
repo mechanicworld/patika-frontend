@@ -4,6 +4,8 @@ import Form from './Form'
 import './styles.css'
 function Contacts() {
 
+
+
   const [contacts, setContacts] = useState(
     [
       { fullName: 'Ozi', phoneNumber: 123123123 },
@@ -21,6 +23,8 @@ function Contacts() {
         <h1>Contacts</h1>
         <List contacts={contacts} />
         <Form addContact={setContacts} contacts={contacts} />
+
+        
       </div>
     </>
   )
